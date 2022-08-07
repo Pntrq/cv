@@ -1,0 +1,116 @@
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font: normal 16px 'Roboto', sans-serif;
+}
+a {
+    color:#0f141e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:black;
+}
+
+a:visited {
+    color: black;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px black;
+    }
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px){
+    .info {
+    display: block;
+}
+}
+
+.info-text {
+margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+
+.info p {
+color:black;
+margin:0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+}
+
+.social {
+        margin-bottom: 20px;
+    }
+    
+
+
+
+.container {
+max-width: 750px;
+margin: auto;
+padding-top: 30px;
+}
+
+.bg-grey {
+    background:#FAEBD7;
+}
+
+.card {
+padding: 15px 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: black;
+margin-bottom: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+.form-group input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+   color: black;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+}
+.btn {
+    color: black;
+    padding: 15 20px;
+    font-family: inherit;
+}
+.btn:hover {
+opacity: 0.9;
+}
+
+
+
+
+
